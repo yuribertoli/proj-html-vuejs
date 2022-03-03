@@ -23,9 +23,9 @@ export default {
   data(){
     return{
       headerNavbar: [ //creo un array di oggetti per popolare dinamicamente la navbar dell'header
-        {url: "#", name: "Contacts"},        
+        {url: "#", name: "Shop"},        
         {url: "#", name: "Info"},        
-        {url: "#", name: "Shop"}        
+        {url: "#", name: "Contacts"}        
       ]
     }
   }

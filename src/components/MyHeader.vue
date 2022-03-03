@@ -47,7 +47,7 @@ export default {
 
 header {
     height: $height1;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -63,7 +63,7 @@ header {
             align-items: center;
 
             img {
-                width: 200px;
+                width: 140px;
                 height: auto;
                 object-fit: contain;
             }

@@ -68,7 +68,8 @@ export default {
 
 .groom {
     background-image: url("../../assets/img/avadabarbers-reviewsbackground.jpg");
-    background-size: cover;
+    background-size: contain;
+    background-position-y: 60px;
 
     .services-items {
         padding: 50px 10px;

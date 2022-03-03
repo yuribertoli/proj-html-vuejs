@@ -44,5 +44,13 @@ export default {
     }
 }
 
+.svg-down-wg { /* per tutti i contenitori con la punta dell'img verso il basso e come primo colore bianco, poi grigio */
+    .left {
+      background-image: linear-gradient(to bottom left, white 50%, #f5f5f5 50%);
+    }
+    .right {
+      background-image: linear-gradient(to bottom right, white 50%, #f5f5f5 50%);
+    }
+}
 
 </style>

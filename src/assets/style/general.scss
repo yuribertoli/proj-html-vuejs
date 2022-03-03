@@ -60,7 +60,6 @@ button {
 h2, h3 {
     font-family: 'Playfair Display', serif;
     text-transform: capitalize;
-    white-space: nowrap;
 }
 
 h3, h4 {
@@ -71,6 +70,7 @@ h2 {
     font-size: 3rem;
     color: $secondaryColor;
     padding: 15px 0;
+    white-space: nowrap;
 }
 
 h3 {

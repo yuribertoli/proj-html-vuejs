@@ -54,6 +54,11 @@ button {
     font-weight: 500;
     text-transform: uppercase;
     cursor: pointer;
+
+    &:hover {
+        color: #fb8d05;
+        border-color: #fb8d05;
+    }
 }
 
 /* Regole generali per titoli */

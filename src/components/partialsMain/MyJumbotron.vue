@@ -41,7 +41,6 @@ export default {
   background-image: url("../../assets/img/avadabarbers-homepage-hero-bg.jpg");
   background-size: cover;
   position: relative;
-  z-index: -3;
 
   .container {
     height: calc($jumbotronHeight);

@@ -56,8 +56,8 @@ button {
     cursor: pointer;
 
     &:hover {
-        color: #fb8d05;
-        border-color: #fb8d05;
+        color: $buttonHover;
+        border-color: $buttonHover;
     }
 }
 

@@ -3,13 +3,15 @@
       <MyJumbotron/>
       <ProBarbers/>
       <ServicesPart/>
+      <GroomingProducts/>
   </main>
 </template>
 
 <script>
 import MyJumbotron from "./partialsMain/MyJumbotron.vue";
 import ProBarbers from "./partialsMain/ProBarbers.vue";
-import ServicesPart from "./partialsMain/ServicesPart.vue"
+import ServicesPart from "./partialsMain/ServicesPart.vue";
+import GroomingProducts from "./partialsMain/GroomingProducts.vue"
 
 export default {
     name: "MyMain",
@@ -17,7 +19,8 @@ export default {
     components: {
         MyJumbotron,
         ProBarbers,
-        ServicesPart
+        ServicesPart,
+        GroomingProducts
     },
 
     data(){

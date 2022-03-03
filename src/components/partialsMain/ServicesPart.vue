@@ -66,18 +66,14 @@ export default {
 <style lang="scss" scoped>
 @import "../../assets/style/variables.scss";
 
-.container-partials {
-  width: $width3;
-}
-
 .services-items {
   padding: 50px;
+  width: $width3;
 
   img {
     height: 60px;
     width: auto;
   }
 }
-
 
 </style>

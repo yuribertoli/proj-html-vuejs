@@ -52,6 +52,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 999;
+    margin-top: 20px;
     
     .container {
         justify-content: space-between;
@@ -72,7 +73,13 @@ header {
             display: block;
             height: $height1;
             line-height: $height1;
-            padding: 0 40px;
+            padding: 0 30px;
+            margin: 0 10px;
+
+            &:hover {
+                box-shadow: 0 0 10px white;
+                border-radius: 50%;
+            }
         }
     }
 }

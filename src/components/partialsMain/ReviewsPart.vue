@@ -1,7 +1,9 @@
 <template>
   <div class="svg-down-wg">
 
-    
+    <div class="shaving-butter">
+        <ShavingButter/>
+    </div>
 
     <div class="containerPartials">
 
@@ -51,12 +53,14 @@
 
 <script>
 import SvgImg from "./svg/SvgImg.vue"
+import ShavingButter from "./ShavingButter.vue"
 
 export default {
     name: "ReviewsPart",
 
     components: {
-      SvgImg
+      SvgImg,
+      ShavingButter
     }
 }
 </script>
@@ -66,6 +70,16 @@ export default {
 
 .svg-down-wg {
     padding-top: 300px;
+    position: relative;
+
+    .shaving-butter {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -30px;
+        width: 60%;
+        border-top: 4px solid $mainColor;
+    }
 
     .services-items {
         padding: 50px;

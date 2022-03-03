@@ -2,19 +2,22 @@
   <main>
       <MyJumbotron/>
       <ProBarbers/>
+      <ServicesPart/>
   </main>
 </template>
 
 <script>
 import MyJumbotron from "./partialsMain/MyJumbotron.vue";
-import ProBarbers from "./partialsMain/ProBarbers.vue"
+import ProBarbers from "./partialsMain/ProBarbers.vue";
+import ServicesPart from "./partialsMain/ServicesPart.vue"
 
 export default {
     name: "MyMain",
 
     components: {
         MyJumbotron,
-        ProBarbers
+        ProBarbers,
+        ServicesPart
     },
 
     data(){

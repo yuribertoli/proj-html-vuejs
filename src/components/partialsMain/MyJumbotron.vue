@@ -70,6 +70,10 @@ export default {
         margin: 20px 0;
       }
 
+      button {
+        width: 160px;
+      }
+
       span {
         color: #505050;
         margin-bottom: 20px;

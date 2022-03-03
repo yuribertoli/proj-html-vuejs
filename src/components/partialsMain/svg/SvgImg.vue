@@ -25,12 +25,22 @@ export default {
 }
 
 /* Regole colori e direzione in base a dove posizionate */
-.pro-barbers {
+
+.svg-up-bw { /* per tutti i contenitori con la punta dell'img verso l'alto e come primo colore nero, poi bianco */
     .left {
       background-image: linear-gradient(to top left, white 50%, black 50%);
     }
     .right {
       background-image: linear-gradient(to top right, white 50%, black 50%);
+    }
+}
+
+.svg-up-wb { /* per tutti i contenitori con la punta dell'img verso l'alto e come primo colore bianco, poi nero */
+    .left {
+      background-image: linear-gradient(to top left, black 50%, white 50%);
+    }
+    .right {
+      background-image: linear-gradient(to top right, black 50%, white 50%);
     }
 }
 

@@ -1,26 +1,26 @@
 <template>
 
-  <div class="svg-up-bw">
+  <div class="svg-up-wb">
 
     <div class="containerPartials">
 
-      <h4>award winning</h4>
-      <h2>pro barbers</h2>
-      <button>meet your new barber</button>
+      <h4>mens grooming</h4>
+      <h2>services</h2>
+      <button>read about our services</button>
 
     </div>
 
     <SvgImg/>
 
   </div>
-  
+
 </template>
 
 <script>
 import SvgImg from "./svg/SvgImg.vue"
 
 export default {
-    name: "ProBarbers",
+    name: "ServicesPart",
 
     components: {
       SvgImg
@@ -28,6 +28,6 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style>
 
 </style>

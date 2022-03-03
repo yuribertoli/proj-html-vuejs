@@ -8,7 +8,13 @@
         </div>
 
         <div class="right-header">
-
+            <nav>
+                <ul>
+                    <li v-for="(link, index) in navbar" :key="index">
+                        <a :href="link.url">{{link.name}}</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     
     </div>  
@@ -19,6 +25,10 @@
 <script>
 export default {
     name: "MyHeader",
+
+    props: {
+        "navbar": Array
+    },
 
     data(){
         return{
@@ -37,7 +47,11 @@ export default {
 
 header {
     height: $height1;
-    background-color: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
     
     .container {
         justify-content: space-between;
@@ -54,8 +68,11 @@ header {
             }
         }
 
-        .right-header {
-            
+        a {
+            display: block;
+            height: $height1;
+            line-height: $height1;
+            padding: 0 40px;
         }
     }
 }

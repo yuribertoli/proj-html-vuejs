@@ -22,6 +22,10 @@
     padding: 80px 0;
 }
 
+.display-containers {
+    display: flex;
+}
+
 .svg-up-bw {
     background-color: black;
 }
@@ -55,6 +59,8 @@ button {
 /* Regole generali per titoli */
 h2, h3 {
     font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    white-space: nowrap;
 }
 
 h3, h4 {
@@ -63,12 +69,24 @@ h3, h4 {
 
 h2 {
     font-size: 3rem;
-    text-transform: capitalize;
     color: $secondaryColor;
-    padding: 10px 0;
+    padding: 15px 0;
+}
+
+h3 {
+    margin: 10px 0;
 }
 
 h4 {
     text-transform: uppercase;
     font-size: 0.7rem;
+}
+
+/* Altro */
+p {
+    text-align: center;
+    color: gray;
+    font-size: 0.7rem;
+    font-weight: 200;
+    line-height: 18px;
 }

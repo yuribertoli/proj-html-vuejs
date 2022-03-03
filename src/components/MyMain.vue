@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import MyJumbotron from "./partials/MyJumbtron.vue"
+import MyJumbotron from "./partials/MyJumbotron.vue"
 
 export default {
     name: "MyMain",

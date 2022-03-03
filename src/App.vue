@@ -22,7 +22,9 @@ export default {
 
   data(){
     return{
-
+      header: [
+        {url: "#", name: ""}
+      ]
     }
   }
 }

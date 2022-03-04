@@ -13,22 +13,20 @@
         <img src="../../assets/img/avadabarbers_hero_focalmirror-800x1100.png" alt="barber at work">
       </div>
 
+      <DemosOnSale/>
+
     </div>
   </div>
 </template>
 
 <script>
+import DemosOnSale from "./svg/DemosOnSale.vue"
+
 export default {
     name: "MyJumbotron",
 
-    data(){
-        return{
-
-        }
-    },
-
-    methods: {
-        
+    components: {
+      DemosOnSale
     }
 }
 </script>

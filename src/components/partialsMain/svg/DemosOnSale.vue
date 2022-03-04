@@ -38,6 +38,9 @@ export default {
         align-items: center;
         justify-content: center;
         position: relative;
+        &:hover {
+            cursor: pointer;
+        }
 
         img {
             width: 40%;

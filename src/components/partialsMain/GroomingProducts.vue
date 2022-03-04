@@ -70,6 +70,7 @@ export default {
     background-image: url("../../assets/img/avadabarbers-reviewsbackground.jpg");
     background-size: contain;
     background-position-y: 60px;
+    background-position-x: 50%;
 
     .services-items {
         padding: 50px 10px;

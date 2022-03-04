@@ -68,6 +68,7 @@ export default {
     .services-items {
     padding: 10px;
     width: $width3;
+    max-width: 300px;
 
     img {
         height: auto;

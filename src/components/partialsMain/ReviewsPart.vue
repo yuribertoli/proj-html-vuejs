@@ -79,6 +79,7 @@ export default {
         top: -30px;
         width: 60%;
         border-top: 4px solid $mainColor;
+        max-width: 760px;
     }
 
     .services-items {
